@@ -1,0 +1,17 @@
+# Личные данные: тир-листы, обложки, резервные копии — никогда не публикуются
+tiermaker_data/
+tiermaker_data*/
+
+# Окружение и IDE
+.venv/
+venv/
+.idea/
+.claude/
+__pycache__/
+*.pyc
+
+# Результаты сборки (готовый exe для скачивания лежит только в release/)
+build/
+dist/
+*.exe
+!release/GameTierMaker.exe
